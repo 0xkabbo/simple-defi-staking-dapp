@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple DeFi Staking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>DeFi Staking Dashboard</h1>
+        <button id="connectBtn">Connect Wallet</button>
+        
+        <div class="stats">
+            <p>Your Staked Balance: <span id="balance">0</span> TKN</p>
+        </div>
+
+        <div class="actions">
+            <input type="number" id="stakeAmount" placeholder="Amount to Stake" />
+            <button id="stakeBtn">Stake</button>
+            
+            <input type="number" id="withdrawAmount" placeholder="Amount to Withdraw" />
+            <button id="withdrawBtn">Withdraw</button>
+        </div>
+    </div>
+    
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
