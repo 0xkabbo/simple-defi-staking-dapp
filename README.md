@@ -19,3 +19,4 @@ A professional, lightweight starter kit for building a Staking DApp on Ethereum 
 - Solidity ^0.8.0
 - Ethers.js
 - Hardhat
+YOLO badge test 😆
